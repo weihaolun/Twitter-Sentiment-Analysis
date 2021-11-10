@@ -7,9 +7,14 @@ from nltk.stem import WordNetLemmatizer
 from nltk.tokenize import TweetTokenizer 
 import pandas as pd
 import numpy as np
+import spacy
+from spacy.lang.en.stop_words import STOP_WORDS
 
 # Function to clean tweets
 def clean_tweets_func(tweets_lem): 
+
+    # individual letters to remove
+    individual_letters = ["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"]
 
     #Remove Retweets
     def remove_RT(tweets_lem):
@@ -118,7 +123,9 @@ def clean_tweets_func(tweets_lem):
         row = []
         for element in Tokenized[i]: #Go through every individual word
             if (element not in stopwords_english and  # remove stopwords
-            element not in string.punctuation): # remove punctuation
+            element not in string.punctuation and # remove punctuation
+            element not in individual_letters and # remove individual letters
+            element not in STOP_WORDS): # remove spacy stopwords 
                 row.append(element)
         tweets_clean.append(row)
         i+=1
