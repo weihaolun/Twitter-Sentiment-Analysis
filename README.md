@@ -17,13 +17,11 @@ The purpose of this project was to create a Twitter sentiment monitoring dashboa
     - [Machine Learning](Modeling/Practice_Modeling_InitialData.ipynb)
     - [Twitter API data gathering](Twitter%20V2%20API%20Call%20Final%20with%20Looping.ipynb)
     - [Cleaning and Scoring API data](clean_score_tweets.ipynb)
-    - [Database ETL](https://github.com/samanthajpv/practice-project/blob/153578e5069f28317affc7c78ebfd6b460f54f8f/project_ETL.ipynb)
-        - [schema]()
-        - [queries]()
-    - [JavaScript]()
-    - [HTML]()
-- **[Link to interactive dashboard]()**
-- **[Link to slides]()**
+    - [Database ETL](Database/ETL.ipynb)
+    - [JavaScript]() - no link yet
+    - [HTML]() - no link yet
+- **[Link to interactive dashboard]()** - no link yet
+- **[Link to slides]()** - no link yet
 
 ## Method
 
@@ -57,7 +55,7 @@ The purpose of this project was to create a Twitter sentiment monitoring dashboa
 
 ## References
 
-- ​​Edward, A. (2021, June 13). *An Extensive Guide to collecting tweets from Twitter API v2 for academic research using Python 3*. Towards Data Science. https://towardsdatascience.com/an-extensive-guide-to-collecting-tweets-from-twitter-api-v2-for-academic-research-using-python-3-518fcb71df2a
+- Edward, A. (2021, June 13). *An Extensive Guide to collecting tweets from Twitter API v2 for academic research using Python 3*. Towards Data Science. https://towardsdatascience.com/an-extensive-guide-to-collecting-tweets-from-twitter-api-v2-for-academic-research-using-python-3-518fcb71df2a
 
 - Goyal, G.(2021, June 11). *Twitter Sentiment Analysis- A NLP Use-Case for Beginners*. Analytics Vidhya. https://www.analyticsvidhya.com/blog/2021/06/twitter-sentiment-analysis-a-nlp-use-case-for-beginners/
 
