@@ -1,3 +1,4 @@
+# Import dependencies
 import nltk          
 nltk.download('stopwords')
 import re                                  
