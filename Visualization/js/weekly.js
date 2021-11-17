@@ -3,7 +3,7 @@ function init() {
     const weekSelector = d3.select("#selWeeks");
 
     // Use the list of weeks to populate the select options
-    d3.json("https://raw.githubusercontent.com/weihaolun/twitter-visualization/master/datasources/weekly_tweets_counts.json").then((data) => {
+    d3.json("https://raw.githubusercontent.com/weihaolun/Twitter-Sentiment-Analysis/main/Visualization/data_for_visualization/weekly_tweets_counts.json").then((data) => {
         console.log("this is the weekly count data", data);
 
         // Roll data by weeks

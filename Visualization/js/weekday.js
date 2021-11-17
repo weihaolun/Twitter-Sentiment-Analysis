@@ -3,7 +3,7 @@ function init() {
     const selector = d3.select("#selDataset");
 
     // Use the list of weekday names to populate the select options
-    d3.json("https://raw.githubusercontent.com/weihaolun/twitter-visualization/master/datasources/all_weeks_data.json").then((data) => {
+    d3.json("https://raw.githubusercontent.com/weihaolun/Twitter-Sentiment-Analysis/main/Visualization/data_for_visualization/weekday_tweets_data.json").then((data) => {
 
         const dataByWeekday = d3.nest()
             .key(function (d) { return d.weekday; })
@@ -40,7 +40,7 @@ function optionChanged(newWeekday) {
 
 // Data Panel
 function buildMetadata(weekday) {
-    d3.json("https://raw.githubusercontent.com/weihaolun/twitter-visualization/master/datasources/weekly_tweets_counts.json").then((data) => {
+    d3.json("https://raw.githubusercontent.com/weihaolun/Twitter-Sentiment-Analysis/main/Visualization/data_for_visualization/weekly_tweets_counts.json").then((data) => {
 
         // Create an array for each day
         const countArray = data.filter(sampleObj => sampleObj.weekday === weekday);
@@ -85,7 +85,7 @@ function buildMetadata(weekday) {
         });
 
     })
-    d3.json("https://raw.githubusercontent.com/weihaolun/twitter-visualization/master/datasources/all_weeks_data.json").then((data) => {
+    d3.json("https://raw.githubusercontent.com/weihaolun/Twitter-Sentiment-Analysis/main/Visualization/data_for_visualization/weekday_tweets_data.json").then((data) => {
 
         // Re-arrange the dataset by weekday
         const dataByWeekday = d3.nest()
@@ -344,7 +344,7 @@ function buildMetadata(weekday) {
 }
 
 function buildCharts(weekday) {
-    d3.json("https://raw.githubusercontent.com/weihaolun/twitter-visualization/master/datasources/all_weeks_data.json").then((data) => {
+    d3.json("https://raw.githubusercontent.com/weihaolun/Twitter-Sentiment-Analysis/main/Visualization/data_for_visualization/weekday_tweets_data.json").then((data) => {
 
         // Re-arrange the dataset by weekday
         const dataByWeekday = d3.nest()
