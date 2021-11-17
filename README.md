@@ -46,12 +46,23 @@ The purpose of this project was to create a Twitter sentiment monitoring dashboa
 - Connection was made to the AWS RDS instance to write the dataframes created to the tables in the RDS. 
 
 ### E. Interactive App/Dashboard
-- Filter by weekday
-- Number of tweets by sentiment
-- Sample 5 tweets
-- Overall sentiment distribution    
-- Line chart of sentiment distribution by hour
-- Bar chart and word cloud of most common words 
+#### Filter By Weeks
+    - Date Range of the week
+    - Total Tweets occurred @tesla
+    - Average Tweets occurred per day
+    - Twetts occurred per weekday
+#### Filter by weekday
+    - Accumulated Weekday Tweets
+    - Number of Weeks so far
+    - Overall sentiment distribution 
+    - Positive Rate
+    - Five positive tweets and five negative tweets
+    - Top 10 keywords
+    - Top 100 keywords cloud
+    - Line chart of sentiment distribution by hour
+#### Dashboard Showcase
+
+    https://user-images.githubusercontent.com/84211948/142153107-37329f51-10f5-4a17-9946-c13dd3862d96.mp4
 
 ## References
 
@@ -66,7 +77,5 @@ Other useful articles:
 
 
 
-
-https://user-images.githubusercontent.com/84211948/142151062-d152ca18-510c-4fce-9e55-89386307a85c.mp4
 
 
