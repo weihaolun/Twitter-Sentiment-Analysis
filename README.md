@@ -64,3 +64,9 @@ The purpose of this project was to create a Twitter sentiment monitoring dashboa
 Other useful articles:
 - https://developer.twitter.com/en/docs/twitter-api/early-access 
 
+
+
+
+https://user-images.githubusercontent.com/84211948/142151062-d152ca18-510c-4fce-9e55-89386307a85c.mp4
+
+
