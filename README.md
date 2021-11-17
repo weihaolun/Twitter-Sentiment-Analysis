@@ -61,7 +61,7 @@ The purpose of this project was to create a Twitter sentiment monitoring dashboa
     - Top 100 keywords cloud
     - Line chart of sentiment distribution by hour
 #### Dashboard Showcase
-    https://user-images.githubusercontent.com/84211948/142153107-37329f51-10f5-4a17-9946-c13dd3862d96.mp4
+https://user-images.githubusercontent.com/84211948/142153107-37329f51-10f5-4a17-9946-c13dd3862d96.mp4
 
 ## References
 
