@@ -2,7 +2,7 @@
 A weekday Twitter sentiment analysis on Tesla
 
 ## Project Overview
-The purpose of this project was to create a Twitter sentiment monitoring dashboard. By applying NLP, a dataset of over 50K pre-labeled tweets classified into positive, negative, and neutral was used to train and test different machine learning models. New tweets were collected via the Twitter API v2 and passed into the selected model to predict sentiment. The dashboard presents analysis of sentiment by weekday where chosen topic was Tesla.
+The purpose of this project was to create a Twitter sentiment monitoring dashboard. By applying NLP, a dataset of over 40K pre-labeled tweets classified into positive, negative, and neutral was used to train and test different machine learning models. New tweets were collected via the Twitter API v2 and passed into the selected model to predict sentiment. The dashboard presents analysis of sentiment by weekday where chosen topic was Tesla.
 
 ### Resources
 - Data Source: [SemEval-2017 Twitter data](https://alt.qcri.org/semeval2017/task4/) and Twitter API v2
@@ -21,7 +21,7 @@ The purpose of this project was to create a Twitter sentiment monitoring dashboa
     - [JavaScript](Visualization/js)
     - [HTML](index.html)
 - **[Link to interactive dashboard](https://weihaolun.github.io/Twitter-Sentiment-Analysis/)**
-- **[Link to slides]()** - no link yet
+- **[Link to slides](https://docs.google.com/presentation/d/1SkkuV-xCmLAFttBB86dk_F36QMiQGmegqGKszvBal8w/edit#slide=id.g1026bbf1345_7_260)**
 
 ## Method
 
@@ -30,7 +30,7 @@ The purpose of this project was to create a Twitter sentiment monitoring dashboa
 2. API Tweets 
 - New tweets were collected via **Standard Basic Twitter API v2**. 
 - Endpoints used were **search tweets** and **tweet counts** in which one can retrieve public tweets posted and count of tweets for a query over the last 7 days. 
-- Data gathered was from Nov1-14 (two weeks). Total tweets is 67,200 (200 tweets per hour).
+- Data gathered was from Nov. 1-14, 2021 (two weeks). Total tweets is 67,200 (200 tweets per hour).
 
 ### B. Data Cleaning
 - A function was created to clean the tweets using regular expression to remove retweets, hyperlinks, hashtags, numbers, emojis, and mentions. NLP was applied by tokenizing the tweets, removing stop words, and lemmatizing the list of words by utilizing the NLTK library.
