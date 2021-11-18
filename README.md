@@ -37,12 +37,12 @@ The purpose of this project was to create a Twitter sentiment monitoring dashboa
 - A second function was created to apply the cleaning function, build the dataframe, and assign scores (1:positive, 0:neutral, -1:negative) to each tweet accordingly. 
 
 <p align="middle">
-    <img src="" width="600" height="200"/>
+    <img src="images/before_cleaning.png" width="700" height="80"/>
     <h5 align="center">Tweets Before Cleaning</h5>
 </p>
 
 <p align="middle">
-    <img src="" width="600" height="200"/>
+    <img src="images/after_cleaning.png" width="375" height="100"/>
     <h5 align="center">Tweets After Cleaning</h5>
 </p>
 
@@ -51,18 +51,19 @@ The purpose of this project was to create a Twitter sentiment monitoring dashboa
 - Modeling: Three algorithms were tested and compared to see which model performed best. As part of the optimization, the neutral tweets were dropped to improve the model scores. Based on the results, model selected was LinearSVC with accuracy score of 0.83.
 
 | Model | Accuracy Score | Precision - Recall - F1 Score
-| ------------- | ------------- | ------------- |
-| Bernoulli Naive Bayes | 0.72 | ![]()
-| Logistic Regression | 0.82 | ![]()
-| Linear Support Vector Classification | 0.83 | ![]()
+| ------------- | :-------------: | ------------- |
+| Bernoulli Naive Bayes | 0.72 | <img src="images/Bernoulli.png" alt="alt text" width="250" height="70">
+| Logistic Regression | 0.82 | <img src="images/Logistic_regression.png" alt="alt text" width="250" height="70">
+| Linear Support Vector Classification | 0.83 | <img src="images/LinearSVC.png" alt="alt text" width="250" height="70">
 
 ### D. Database
 - An AWS RDS instance was created and connected to pgAdmin where a new database was created. 
 - Tables were generated using a [schema](Database/db_schema.sql).
 - Data files were uploaded to an S3 bucket where PySpark was used to extract and transform the data to match the tables in pgAdmin (see [ETL process](Database/ETL.ipynb)).
 - Connection was made to the AWS RDS instance to write the dataframes created to the tables in the RDS. 
+
 <p align="middle">
-    <img src="" width="600" height="200"/>
+    <img src="images/db_query_result.png" width="450" height="150"/>
     <h5 align="center">Sample Join Query Result</h5>
 </p>
 
