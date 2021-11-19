@@ -2,6 +2,7 @@
 A weekday Twitter sentiment analysis on Tesla
 
 [Presentation](https://youtu.be/wGX2Nw5HhAE)
+
 [Dashboard](https://youtu.be/wGX2Nw5HhAE)
 
 ## Project Overview
