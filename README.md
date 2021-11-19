@@ -1,6 +1,9 @@
 # Twitter-Sentiment-Analysis
 A weekday Twitter sentiment analysis on Tesla
 
+[Presentation](https://youtu.be/wGX2Nw5HhAE)
+[Dashboard](https://youtu.be/wGX2Nw5HhAE)
+
 ## Project Overview
 The purpose of this project was to create a Twitter sentiment monitoring dashboard. By applying NLP, a dataset of over 40K pre-labeled tweets classified into positive, negative, and neutral was used to train and test different machine learning models. New tweets were collected via the Twitter API v2 and passed into the selected model to predict sentiment. The dashboard presents analysis of sentiment by weekday where chosen topic was Tesla.
 
