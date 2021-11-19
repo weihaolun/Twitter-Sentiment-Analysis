@@ -56,7 +56,12 @@ The purpose of this project was to create a Twitter sentiment monitoring dashboa
 | Logistic Regression | 0.82 | <img src="images/Logistic_regression.png" alt="alt text" width="250" height="70">
 | Linear Support Vector Classification | 0.83 | <img src="images/LinearSVC.png" alt="alt text" width="250" height="70">
 
-### D. Database
+### D. Cleaning and Scoring API tweets
+- The same cleaning function was applied to the tweets downloaded via the API to turn the tweets into list of words as a preprocessing step. 
+- The model and vectorizer used in the machine learning section were saved as pickle files to be able to import it and use it on the new set of tweets. 
+- The downloaded data, together with the predicted scores were merged to form dataframes to store in the database and saved it as a json file for the visualization.
+
+### E. Database 
 - An AWS RDS instance was created and connected to pgAdmin where a new database was created. 
 - Tables were generated using a [schema](Database/db_schema.sql).
 - Data files were uploaded to an S3 bucket where PySpark was used to extract and transform the data to match the tables in pgAdmin (see [ETL process](Database/ETL.ipynb)).
@@ -67,7 +72,7 @@ The purpose of this project was to create a Twitter sentiment monitoring dashboa
     <h5 align="center">Sample Join Query Result</h5>
 </p>
 
-### E. Interactive App/Dashboard
+### F. Interactive App/Dashboard
 #### Filter By Week
     - Date range of the week
     - Total tweets occurred @tesla
