@@ -1,0 +1,1 @@
+Data Source: SemEval-2017 Twitter data and Twitter API v2Language:* Python, PySparko Dependecies: numpy, pandas, nltk, matplotlib, re, scikit-learn* JavaScript, HTML, CSSo Libraries: Bootstrap, D3, plotly, anychartSoftware: Jupyter Notebook, VSCode, Google Colab, pgAdmin, AWS
