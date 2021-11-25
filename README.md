@@ -25,7 +25,7 @@ The purpose of this project was to create a Twitter sentiment monitoring dashboa
     - [JavaScript](Visualization/js)
     - [HTML](index.html)
 - **[Link to interactive dashboard](https://weihaolun.github.io/Twitter-Sentiment-Analysis/)**
-- **[Link to slides](https://docs.google.com/presentation/d/1SkkuV-xCmLAFttBB86dk_F36QMiQGmegqGKszvBal8w/edit#slide=id.g1026bbf1345_7_260)**
+- **[Link to slides](https://github.com/weihaolun/Twitter-Sentiment-Analysis/blob/main/Presentation%20Deck.pdf)**
 
 ## Method
 
